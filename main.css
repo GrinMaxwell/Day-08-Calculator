@@ -1,28 +1,36 @@
 form {
-  height: 20rem;
-  width: 20rem;
+  height: 30rem;
+  width: 30rem;
   background: #47A3DA;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem; }
   form h1 {
-    text-align: center; }
+    text-align: center;
+    padding-top: 1rem; }
   form input {
     clear: both;
     margin: 2rem;
-    display: inline-block; }
+    display: inline-block;
+    border: 2px solid #106DB3;
+    font-size: 2rem; }
   form p {
     padding-top: 1rem;
     display: inline-block;
-    font-family: 'Open Sans', sans-serif; }
-  form .equals {
-    height: 2rem;
-    border-radius: 50%; }
-    form .equals:focus {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem; }
+  form #equals {
+    height: 5rem;
+    width: 10rem;
+    border-radius: 50%;
+    font-size: 1rem; }
+    form #equals:focus {
       outline: none;
       color: #94C374; }
   form output {
     height: 3rem;
     width: 3rem;
     background-color: #47A3DA;
-    clear: both; }
+    clear: both;
+    font-size: 2rem; }
 
 /*# sourceMappingURL=main.css.map */
