@@ -1,3 +1,28 @@
-
+form {
+  height: 20rem;
+  width: 20rem;
+  background: #47A3DA;
+  border-radius: 1rem; }
+  form h1 {
+    text-align: center; }
+  form input {
+    clear: both;
+    margin: 2rem;
+    display: inline-block; }
+  form p {
+    padding-top: 1rem;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif; }
+  form .equals {
+    height: 2rem;
+    border-radius: 50%; }
+    form .equals:focus {
+      outline: none;
+      color: #94C374; }
+  form output {
+    height: 3rem;
+    width: 3rem;
+    background-color: #47A3DA;
+    clear: both; }
 
 /*# sourceMappingURL=main.css.map */
