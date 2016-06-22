@@ -1,5 +1,5 @@
 form {
-  height: 30rem;
+  height: 35rem;
   width: 30rem;
   background: #47A3DA;
   border-radius: 1rem;
@@ -12,7 +12,11 @@ form {
     margin: 2rem;
     display: inline-block;
     border: 2px solid #106DB3;
-    font-size: 2rem; }
+    font-size: 2rem;
+    background-color: #94C374; }
+    form input:focus {
+      background-color: #BECBD2;
+      outline: none; }
   form p {
     padding-top: 1rem;
     display: inline-block;
@@ -22,10 +26,11 @@ form {
     height: 5rem;
     width: 10rem;
     border-radius: 50%;
-    font-size: 1rem; }
+    font-size: 1rem;
+    background-color: #94C374; }
     form #equals:focus {
-      outline: none;
-      color: #94C374; }
+      background-color: #BECBD2;
+      outline: none; }
   form output {
     height: 3rem;
     width: 3rem;
